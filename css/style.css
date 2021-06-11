@@ -1,0 +1,405 @@
+.header-ttl {
+  width: 50px;
+  height: 40px;
+}
+
+.header-ttl-image {
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 30px;
+  background-color: #fff;
+  align-items: center;
+}
+
+.header-nav-list {
+  display: flex;
+  font-size: 15px;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.main-ttl {
+  position: relative;
+}
+
+.main-ttl-image {
+  margin: 0 0 0 50%;
+  display: block;
+}
+
+.main-ttl-message {
+  font-size: 80px;
+  color: blueviolet;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  line-height: 100px;
+  font-family: "Indie Flower", cursive;
+}
+
+.main-ttl-message-strong {
+  color: rgb(85, 175, 171);
+}
+
+.main-ttl-text {
+  font-size: 40px;
+  color: blueviolet;
+  position: absolute;
+  top: 60%;
+  left: 20%;
+}
+
+.main-ttl-text-strong {
+  color: rgb(85, 175, 171);
+}
+
+.main-ttl-text-option {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  font-size: 25px;
+}
+
+.news-ttl {
+  margin: 50px 25% 30px 0;
+}
+
+.news-ttl-name {
+  text-align: center;
+  color: blueviolet;
+  font-family: "Indie Flower", cursive;
+  margin-right: 35px;
+  margin-bottom: 10px;
+}
+
+.news-text {
+  text-align: center;
+  font-size: 20px;
+}
+
+.news {
+  display: flex;
+  justify-content: center;
+  border-top: solid 3px gray;
+  border-bottom: solid 3px gray;
+  margin-bottom: 30px;
+  padding: 20px;
+  margin-right: 33%;
+  margin-left: 33%;
+}
+
+.news-table {
+  border-top: solid 2px gray;
+  border-bottom: solid 2px gray;
+}
+.news-table-row-date,
+.news-table-row-mark,
+.news-table-row-text {
+  padding: 10px;
+  border-bottom: 1px;
+  border-color: gray;
+  border-style: solid;
+}
+
+.news-table-row-mark-strong {
+  background-color: blueviolet;
+  padding: 1px 10px;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.about-ttl {
+  background-color: rgb(238, 238, 238);
+}
+
+.about-ttl-name {
+  text-align: center;
+  color: blueviolet;
+  font-family: "Indie Flower", cursive;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+
+.about-text {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.about {
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  justify-content: center;
+}
+
+.about-detail {
+  font-size: 20px;
+  line-height: 30px;
+  margin-right: 30px;
+}
+
+.service-ttl {
+  margin: 20px 20%;
+}
+
+.service-ttl-name {
+  color: blueviolet;
+  font-family: "Indie Flower", cursive;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+
+.service-text {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.service {
+  display: grid;
+  grid-template-rows: 300px 300px;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px 20%;
+}
+
+.service1 {
+  grid-row: 1/3;
+  grid-column: 1/2;
+  background: blueviolet;
+  text-align: center;
+}
+
+.service2 {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  background: rgb(188, 141, 231);
+}
+
+.service3 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  background: rgb(151, 124, 177);
+}
+
+.service-img1 {
+  margin-top: 30%;
+}
+
+.service-img2,
+.service-img3 {
+  margin-top: 10%;
+  float: left;
+}
+
+.serivce-ttl-name1,
+.serivce-ttl-name2,
+.serivce-ttl-name3 {
+  font-weight: bold;
+  color: #fff;
+}
+
+.service-ttl2,
+.service-ttl3 {
+  margin-top: 20%;
+}
+
+.service-ttl-text1,
+.service-ttl-text2,
+.service-ttl-text3 {
+  padding-top: 15px;
+  color: #fff;
+  line-height: 30px;
+}
+
+.blog-ttl {
+  margin: 20px 20%;
+}
+
+.blog-ttl-name {
+  color: blueviolet;
+  font-family: "Indie Flower", cursive;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+
+.blog {
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20%;
+}
+
+.blog1 {
+  height: 400px;
+  background-color: white;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.blog1__img {
+  position: relative;
+}
+
+.blog1__img__category {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: blueviolet;
+  color: #fff;
+  padding: 10px;
+}
+
+.blog1__ttl__text {
+  padding: 10px;
+  text-align: left;
+  display: inline-block;
+}
+
+.blog1__tag {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.blog1__tag__date {
+  text-align: left;
+}
+
+.blog__buttun {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(238, 238, 238);
+}
+
+.blog__buttun__text {
+  display: inline-block;
+  color: blueviolet;
+  border: solid 1px blueviolet;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.company-ttl {
+  margin: 20px 25%;
+}
+
+.company-ttl-name {
+  color: blueviolet;
+  font-family: "Indie Flower", cursive;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+.company__table {
+  width: 50%;
+  border-collapse: collapse;
+  border: 1px solid gray;
+  margin: 20px 0;
+}
+
+.company__table__category,
+.company__table__name {
+  border: 1px solid gray;
+  padding: 20px;
+}
+
+.company__table__category {
+  font-weight: bold;
+  background-color: rgb(238, 238, 238);
+}
+
+.company {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.information__recruit__img,
+.information__interview__img {
+  height: 250px;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+}
+
+.information__recruit,
+.information__interview {
+  position: relative;
+}
+
+.information__recruit__text,
+.information__interview__text {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  display: inline-block;
+  color: #fff;
+  font-size: 25px;
+  font-style: bold;
+}
+
+.inquery__ttl {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.inquery__ttl__text {
+  font-size: 20px;
+}
+
+.inquery__line__text {
+  font-size: 50px;
+  color: blueviolet;
+}
+
+.inquery__line {
+  margin-bottom: 50px;
+}
+
+.inquery__form__text {
+  background-color: blueviolet;
+  padding: 18px 80px;
+  border-radius: 30px;
+  color: white;
+  position: relative;
+  box-shadow: 5px 5px 3px rgb(110, 37, 179);
+}
+
+.inquery__form__text::before {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  background: url(../img/img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
+
+.inquery {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+footer {
+  margin-top: 150px;
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+  height: 40px;
+  padding-top: 30px;
+}
